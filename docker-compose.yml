@@ -1,0 +1,19 @@
+version: '3.8'
+services:
+    spotify-readme:
+        build: .
+        ports:
+            - "5000:5000"
+        volumes:
+            - ./api:/api
+        environment:
+              SPOTIFY_REFRESH_TOKEN: 
+                AQDdxcCwzuiglZuSajGHruAhgabUnyRaEuJATNppSSEAkbPfezhGDsl8tz_kqVuO7o5uxxysR5c4bXosW4foS5pKDt8t_s5TjARtDzqyMBjmGoNjbhmGVU5k3sJtvDCitG4
+              SPOTIFY_CLIENT_ID: 
+                f67ea4cf05c14f0898cdf9e2abfeffff
+              SPOTIFY_SECRET_ID: 
+                9f704109830a4b6d81958181a3cba3fa 
+
+volumes:
+  persistent:
+  
