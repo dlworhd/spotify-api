@@ -1,5 +1,6 @@
 {
     "current-theme": "dark",
+    "spin": true,
     "templates": {
         "light": "spotify.html.j2",
         "dark": "spotify-dark.html.j2"
